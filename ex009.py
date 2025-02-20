@@ -1,0 +1,2 @@
+numero = int(input('Me fale um número de 0 a 9: '))
+print('A tabuada de {0} é:\n1 x {0} = {1}\n2 x {0} = {2}\n3 x {0} = {3}\n4 x {0} = {4}\n5 x {0} = {5}\n6 x {0} = {6}\n7 x {0} = {7}\n8 x {0} = {8}\n9 x {0} = {9}'.format(numero, numero * 1, numero * 2, numero * 3, numero * 4, numero * 5, numero * 6, numero * 7, numero * 8, numero * 9))
