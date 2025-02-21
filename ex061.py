@@ -1,4 +1,4 @@
-#refazendo o desafio 51, resolvendo uma pa usando usando while
+#refazendo o desafio 51, resolvendo uma PA usando usando while
 
 p1 = int(input("Me fale o primeiro termo da PA: "))
 razão = int(input("Me fame a razão da PA: "))

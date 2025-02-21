@@ -4,8 +4,7 @@ numero = total = int(input("Me fale um número: "))
 
 while numero != 1:
     numero -= 1
-    total = numero * total
-    print(total)
+    total *= numero
 
 print(f"O fatorial desse número é: {total}")
 
