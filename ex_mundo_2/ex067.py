@@ -1,6 +1,5 @@
 #Fazendouma taboada infinita com a condição de digitar um número negativo para parar
 
-num = 0
 contador = 0
 
 while True:
