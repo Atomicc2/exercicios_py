@@ -1,6 +1,5 @@
 #Lê o nome e média de um aluno e retorna a sua situação
 
-alunos = []
 informacoes_aluno = {}
 
 informacoes_aluno['nome'] = str(input("Nome: "))

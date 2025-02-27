@@ -20,3 +20,9 @@ cardapio.append(comidas.copy())                 #Copia os valores do dicionário
 
 print(comidas)
 
+
+#Novos módulos
+import operator, datetime
+
+#datatime fui usado no ex092 para coletar a data do ano atual
+#operator foi usado no ex091 pra facilitar a ordagem dos números sorteados
