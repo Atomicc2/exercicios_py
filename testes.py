@@ -1,9 +1,4 @@
-from ex113.dado import leia_int, leiafloat
+from ex115.input import input_float, input_int
 
-n = leia_int("Digite um número inteiro: ")
-
-print(n)
-
-n = leiafloat("Digite um número: ")
-
-print(n)
+print(input_int("Digite um número inteiro!"))
+print(input_float("Digite um número real!"))
