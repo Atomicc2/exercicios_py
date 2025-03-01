@@ -6,7 +6,7 @@ def input_int(msg):
     '''
     while True:
         try:
-            n = int(input(f"{msg }"))
+            n = int(input(msg))
         except (ValueError, TypeError, InterruptedError):
             print(f"\033[0,32,40mERRO!, Digite um número inteiro!\033[m")
         else:
@@ -18,11 +18,26 @@ def input_float(msg):
     '''
     while True:    
         try:
-            n = str(input(f"{msg} ")).replace(',', '.').strip()
+            n = str(input(msg)).replace(',', '.').strip()
             if n.isalpha():
                 print("ERRO! Insira um valor válido!")
         except (ValueError, TypeError):
             print("ERRO! Insira um valor válido! ")
         else:
             return n
-            
+
+def input_str(msg):
+    '''
+    Lê e valida uma string
+    '''
+    while True:
+        try:
+            n = input(msg).strip()
+            if n.isalpha():
+                return n
+            else:
+                print("ERRO!, Insira um nome válido!")                     
+        except (ValueError, TypeError):
+            print("ERRO! Insira um nome válido!")
+
+        
