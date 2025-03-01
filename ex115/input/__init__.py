@@ -36,7 +36,7 @@ def input_str(msg):
             if n.isalpha():
                 return n
             else:
-                print("ERRO!, Insira um nome válido!")                     
+                print("ERRO! Insira um nome válido!")                     
         except (ValueError, TypeError):
             print("ERRO! Insira um nome válido!")
 
